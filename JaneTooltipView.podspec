@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name = 'EasyTipView'
-  s.version = '1.1.0'
+  s.name = 'JaneTooltipView'
+  s.version = '1.2.0'
   s.license = 'MIT'
   s.summary = 'Elegant tooltip view written in Swift'
 
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/teodorpatras/EasyTipView'
   s.social_media_url = 'http://twitter.com/teodorpatras'
   s.authors = { 'Teodor Patraș' => 'me@teodorpatras.com' }
-  s.source = { :git => 'https://github.com/teodorpatras/EasyTipView.git', :tag => s.version }
+  s.source = { :git => 'https://github.com/gordontucker/EasyTipView.git', :tag => s.version }
 
   s.ios.deployment_target = '8.0'
   s.source_files = 'Source/*.swift'

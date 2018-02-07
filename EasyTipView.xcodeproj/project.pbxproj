@@ -33,6 +33,7 @@
 		13FB32A11D0C53CB001ACE20 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = SOURCE_ROOT; };
 		13FB32A51D0C53E2001ACE20 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/Info.plist; sourceTree = SOURCE_ROOT; };
 		13FB32A61D0C53E2001ACE20 /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tests.swift; path = Tests/Tests.swift; sourceTree = SOURCE_ROOT; };
+		F8239B2D202BBD660006E3DD /* JaneTooltipView.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = JaneTooltipView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		1310EC811D0C537F0000E71E = {
 			isa = PBXGroup;
 			children = (
+				F8239B2D202BBD660006E3DD /* JaneTooltipView.podspec */,
 				1310EC8D1D0C537F0000E71E /* EasyTipView */,
 				1310EC991D0C53800000E71E /* EasyTipViewTests */,
 				1310EC8C1D0C537F0000E71E /* Products */,
@@ -80,7 +82,7 @@
 				13FB32A11D0C53CB001ACE20 /* Info.plist */,
 				13609E061D23AB8500593B38 /* UIKitExtensions.swift */,
 			);
-			path = EasyTipView;
+			name = EasyTipView;
 			sourceTree = "<group>";
 		};
 		1310EC991D0C53800000E71E /* EasyTipViewTests */ = {
@@ -89,7 +91,7 @@
 				13FB32A51D0C53E2001ACE20 /* Info.plist */,
 				13FB32A61D0C53E2001ACE20 /* Tests.swift */,
 			);
-			path = EasyTipViewTests;
+			name = EasyTipViewTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
